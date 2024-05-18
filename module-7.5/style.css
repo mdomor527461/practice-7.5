@@ -1,0 +1,53 @@
+.container{
+    margin-top:40px;
+}
+.input-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.input-container input{
+    border-style: none;
+    width: 40%;
+    height: 35px;
+    margin:5px;
+    padding:5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px gainsboro;
+}
+.input-container button{
+    border-style: none;
+    height: 35px;
+    margin:5px;
+    padding:5px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 4px 4px gainsboro;
+    background-color: yellow;
+    width: 150px;
+}
+.input-container button:hover{
+    transform: scale(1.1);
+}
+.card-img{
+    height: 250px;
+    max-width: 250px;
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content: center;
+}
+.card{
+    padding:10px;
+    text-align: center;
+    margin:10px;
+}
+.error{
+    color : red;
+    font-style: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
